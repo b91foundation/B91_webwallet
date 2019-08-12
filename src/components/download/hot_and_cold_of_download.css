@@ -1,0 +1,69 @@
+.download{
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+.download>section{
+    width: 100%;
+    min-height: 180px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.hot-download>section{
+    background: url('../../assets/imgs/download/fontIcon-hot.png') no-repeat center;
+    background-size: 120px auto;
+}
+.cold-download>section{
+    background: url('../../assets/imgs/download/fontIcon-cold.png') no-repeat center;
+    background-size: 120px auto;
+}
+.cold-download>section>span,.hot-download>section>span{
+    display: inline-block;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 3.2em;
+    margin-top: 160px;
+}
+.download>article{
+    width: 100%;
+    margin: 40px auto;
+}
+.download>article>img{
+    width: 60%;
+}
+.downloadBtns>button{
+    display: block;
+    width: 100%;
+    outline: none;
+    text-decoration: none;
+    border:none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.downloadBtns a{
+    display: block;
+    width: 90%;
+    height: 2.8em;
+    line-height: 2.8em;
+    margin: 20px auto 0 auto;
+    outline: none !important;
+    text-decoration: none !important;
+    background: #fff;
+    color: #222222 !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 2.6em;
+}
+.downloadBtns>button[disabled="disabled"] a{
+    background: #eee;
+}
+.downloadBtns a>i,.downloadBtns a>span{
+    vertical-align: middle;
+}
+.downloadBtns a>i>img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}

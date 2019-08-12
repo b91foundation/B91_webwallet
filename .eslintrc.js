@@ -27,7 +27,7 @@ module.exports = {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'indent': ['error', 4],
         'no-tabs': 'off',
-        "vue/html-self-closing": ["error", {
+        "vue/html-self-closing": ["off", {
             "html": {
                 "void": "never",
                 "normal": "never",
@@ -36,7 +36,7 @@ module.exports = {
             "svg": "always",
             "math": "always"
         }],
-        "vue/html-indent": ["error", 2, {
+        "vue/html-indent": ["off", 2, {
             "attribute": 1,
             "closeBracket": 0,
             "alignAttributesVertically": true,

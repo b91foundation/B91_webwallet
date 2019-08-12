@@ -1,0 +1,50 @@
+.planerCodeContainer{
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+}
+.planerCode{
+    width: 375px;
+    height: 667px;
+    margin: 0 auto;
+    font-size: 10px;
+    background: #fff;
+    position: relative;
+    top: calc((100% - 667px)/2);
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 10px;
+}
+.planerCode section{
+    position: relative;
+    top: 20px;
+    width: 120px;
+    height: 126px;
+    margin: 0 auto;
+}
+.planerCode section.hotIcon{
+    background: url('./../../assets/imgs//download/fontIcon-hot.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.planerCode section.coldIcon{
+    background: url('./../../assets/imgs//download/fontIcon-cold.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.planerCode article{
+    position: relative;
+    width: 80%;
+    height: calc(100% - 200px);
+    left: 10%;
+}
+.planerCode article img{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.planerCode h3{
+    width: 80%;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 auto;
+}

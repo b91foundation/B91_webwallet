@@ -6,6 +6,12 @@ import Restore from '../components/Restore.vue'
 import Login from '../components/Login'
 import Terms from '../components/Terms'
 import Warning from '../components/Warning'
+import DownloadColdMobile from '../components/download/DownloadColdMobile'
+import DownloadHotMobile from '../components/download/DownloadHotMobile'
+import AndroidColdCode from '../components/download/AndroidColdCode'
+import AndroidHotCode from '../components/download/AndroidHotCode'
+import IOSColdCode from '../components/download/IOSColdCode'
+import IOSHotCode from '../components/download/IOSHotCode'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +40,30 @@ export default new Router({
         path: '/warning',
         name: 'warning',
         component: Warning
+    }, {
+        path: '/downloadColdMobile',
+        name: 'downloadColdMobile',
+        component: DownloadColdMobile
+    }, {
+        path: '/downloadHotMobile',
+        name: 'downloadHotMobile',
+        component: DownloadHotMobile
+    }, {
+        path: '/androidCodeCold',
+        name: 'androidCodeCold',
+        component: AndroidColdCode
+    }, {
+        path: '/andriodCodeHot',
+        name: 'andriodCodeHot',
+        component: AndroidHotCode
+    }, {
+        path: '/iosCodeCold',
+        name: 'iosCodeCold',
+        component: IOSColdCode
+    }, {
+        path: '/iosCodeHot',
+        name: 'iosCodeHot',
+        component: IOSHotCode
     }
     ]
 })
