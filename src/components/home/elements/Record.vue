@@ -80,12 +80,12 @@
              cols="auto">
         <div>
           <span v-if="txIcon === 'sent' || txIcon === 'received'">{{ txIcon === 'sent' ? '-' : '+' }}</span>
-          <span v-if="txIcon === 'sent' || txIcon === 'received' || txIcon === 'leased out' || txIcon === 'leased out canceled' || txIcon==='leased in' || txIcon==='leased in canceled'">{{ formatter(txAmount) }} VSYS</span>
+          <span v-if="txIcon === 'sent' || txIcon === 'received' || txIcon === 'leased out' || txIcon === 'leased out canceled' || txIcon==='leased in' || txIcon==='leased in canceled'">{{ formatter(txAmount) }} TV</span>
         </div>
         <div class="tx-fee"
              v-if="(txIcon === 'sent' || txIcon === 'leased out canceled' || txIcon === 'leased out' || txIcon === 'register contract' || txIcon === 'execute contract function') && feeFlag">
-          <span v-if="(txFee !== 0)"> Tx Fee: - {{ formatter(txFee) }} VSYS </span>
-          <span v-else> Tx Fee: {{ txFee }} VSYS </span>
+          <span v-if="(txFee !== 0)"> Tx Fee: - {{ formatter(txFee) }} TV </span>
+          <span v-else> Tx Fee: {{ txFee }} TV </span>
         </div>
       </b-col>
       <b-col class="record-action"

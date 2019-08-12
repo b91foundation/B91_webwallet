@@ -11,9 +11,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 export const WALLET_VERSION = '0.2.0'
 export const INITIAL_SESSION_TIMEOUT = 5
-export const NETWORK_BYTE = 'M'.charCodeAt(0);
+export const NETWORK_BYTE = ';'.charCodeAt(0);
 export const INITIAL_NONCE = 0;
-export const ADDRESS_VERSION = 5;
+export const ADDRESS_VERSION = 29;
 export const PAYMENT_TX = 2;
 export const LEASE_TX = 3;
 export const CONTRACT_CREATE_TX = 8;
@@ -47,8 +47,8 @@ export const DEFAULT_BASIC_CONFIG = {
 
 export const NODE_IP = '/api'
 export const ADDRESS_LENGTH = 35;
-export const TX_TEST_EXPLORER = 'https://testexplorer.v.systems/transactions/'
-export const TX_EXPLORER = 'https://explorer.v.systems/transactions/'
+export const TX_TEST_EXPLORER = 'https://testexplorer.t.top/'
+export const TX_EXPLORER = 'https://explorer.t.top/'
 export const VSYS_PRECISION = 1e8
 export const TOKEN_FEE = 100
 export const TX_FEE = 0.1

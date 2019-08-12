@@ -100,7 +100,7 @@
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isInsufficient('hot')">
-              Insufficient VSYS balance
+              Insufficient TV balance
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isNegative(amount)">
@@ -125,7 +125,7 @@
             </b-form-textarea>
           </b-form-group>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} VSYS </label>
+            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} TV </label>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"
@@ -267,7 +267,7 @@
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isInsufficient('cold')">
-              Insufficient VSYS balance
+              Insufficient TV balance
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="!isNumFormatValid(coldAmount)">
@@ -292,7 +292,7 @@
             </b-form-textarea>
           </b-form-group>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} VSYS </label>
+            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} TV </label>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"

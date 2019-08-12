@@ -10,7 +10,7 @@
                     label="Amount"
                     label-for="amount_confirm">
         <b-form-input id="amount_confirm"
-                      :value="formatter(amount) + ' VSYS'"
+                      :value="formatter(amount) + ' TV'"
                       class="amount"
                       readonly
                       :plaintext="true">
@@ -67,7 +67,7 @@
                     label="Fee"
                     label-for="fee_confirm">
         <b-form-input id="fee_confirm"
-                      :value="formatter(fee) + ' VSYS'"
+                      :value="formatter(fee) + ' TV'"
                       class="fee"
                       readonly
                       :plaintext="true">
