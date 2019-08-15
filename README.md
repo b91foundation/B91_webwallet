@@ -1,6 +1,6 @@
-# TV Wallet Gui
+# B91 Wallet Gui
 
-tv wallet gui based on the basic wallet and cold wallet.
+B91 wallet gui based on the basic wallet and cold wallet.
 
 ### Directory Structure
 
@@ -36,13 +36,13 @@ tv wallet gui based on the basic wallet and cold wallet.
   2. clone this project
 
 ``` bash
-$ git clone https://github.com/tivalueproject/tv-wallet-gui.git
+$ git clone https://github.com/b91foundation/B91_webwallet.git
 ```
 
   3. install packages
 
 ```bash
-  $ cd v-wallet-gui
+  $ cd B91_webwallet
   $ npm install
 ```
 
@@ -56,6 +56,6 @@ $ npm run dev
   6. if you want the wallet to access data from a different address, edit ```config/nginx.default.conf```
 
 ```bash
-  proxy_pass http://wallet.v.systems:9122 
+  proxy_pass 
 ```
 to a particular address

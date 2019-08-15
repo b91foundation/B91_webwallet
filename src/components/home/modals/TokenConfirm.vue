@@ -88,7 +88,7 @@
                     label="Fee"
                     label-for="fee_confirm">
         <b-form-input id="fee_confirm"
-                      :value="Number(fee) + ' TV'"
+                      :value="Number(fee) + ' B91'"
                       class="fee"
                       readonly
                       :plaintext="true">

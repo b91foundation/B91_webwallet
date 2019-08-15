@@ -37,7 +37,7 @@
               <span class="balance-title">
                 Balance
               </span>
-              <span class="balance">{{ formatter(balances[address]) }} TV</span>
+              <span class="balance">{{ formatter(balances[address]) }} B91</span>
             </b-btn>
           </b-form-group>
           <b-form-group label="Contract Description"
@@ -75,7 +75,7 @@
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isInsufficient('hot')">
-              Insufficient TV balance
+              Insufficient B91 balance
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isNegative(amount)">
@@ -117,7 +117,7 @@
                  src="@/assets/imgs/icons/signup/ic_check.svg"> Support split/reverse-split token<span style="font-size: 13px;color: #9091A3;letter-spacing: 0;"> (Attention: cannot change after create)</span>
           </div>
           <b-form-group style="margin-top: 10px;">
-            <label class="fee-remark">Transaction Fee {{ Number(fee) }} TV</label>
+            <label class="fee-remark">Transaction Fee {{ Number(fee) }} B91</label>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"
@@ -190,7 +190,7 @@
               readonly>
               <span class="balance-title">Balance
               </span>
-              <span class="balance">{{ formatter(balances[coldAddress]) }} TV</span>
+              <span class="balance">{{ formatter(balances[coldAddress]) }} B91</span>
             </b-btn>
           </b-form-group>
           <b-form-group label="Contract Description"
@@ -228,7 +228,7 @@
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isInsufficient('cold')">
-              Insufficient TV balance
+              Insufficient B91 balance
             </b-form-invalid-feedback>
             <b-form-invalid-feedback id="inputLiveFeedback"
                                      v-else-if="isNegative(coldAmount)">
@@ -270,7 +270,7 @@
                  src="@/assets/imgs/icons/signup/ic_check.svg"> Support split/merge token<span style="font-size: 13px;color: #9091A3;letter-spacing: 0;"> (Attention: cannot change after create)</span>
           </div>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ Number(coldFee) }} TV</label>
+            <label class="fee-remark">Transaction Fee {{ Number(coldFee) }} B91</label>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"

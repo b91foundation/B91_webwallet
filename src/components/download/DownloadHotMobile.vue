@@ -30,7 +30,7 @@ export default {
     name: 'DownloadHotMobile',
     data() {
         return {
-            title: 'TV HOT',
+            title: 'B91 HOT',
             twoPlanarCode: require('../../assets/imgs/download/ico_welcome.png'),
             iphoneAppResource: 'https://testflight.apple.com/join/FPpJXxb1',
             androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/hot.wallet_release.apk'

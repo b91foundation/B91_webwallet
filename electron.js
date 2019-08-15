@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'DEV') {
 
 function createWindow() {
     let window = new BrowserWindow({
-        title: 'TV Client',
+        title: 'B91 Client',
         height: 600,
         width: 1000,
         minHeight: 600,

@@ -38,7 +38,7 @@
                      width="20"
                      height="20">
               </span>
-              <span class="balance">{{ formatter(balances[address]) }} TV</span>
+              <span class="balance">{{ formatter(balances[address]) }} B91</span>
             </b-btn>
           </b-form-group>
           <b-form-group label="Recipient"
@@ -121,7 +121,7 @@
             </b-form-textarea>
           </b-form-group>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} TV</label>
+            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} B91</label>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"
@@ -200,7 +200,7 @@
                      width="20"
                      height="20">
               </span>
-              <span class="balance">{{ formatter(balances[coldAddress]) }} TV</span>
+              <span class="balance">{{ formatter(balances[coldAddress]) }} B91</span>
             </b-btn>
           </b-form-group>
           <b-form-group label="Recipient"
@@ -283,7 +283,7 @@
             </b-form-textarea>
           </b-form-group>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ formatter(coldFee) }} TV</label>
+            <label class="fee-remark">Transaction Fee {{ formatter(coldFee) }} B91</label>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"

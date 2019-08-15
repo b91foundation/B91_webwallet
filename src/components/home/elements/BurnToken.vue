@@ -75,9 +75,9 @@
             </b-form-invalid-feedback>
           </b-form-group>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} TV</label>
+            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} B91</label>
             <span v-if="isInsufficient()"
-                  class="vsys-check">Insufficient TV balance</span>
+                  class="vsys-check">Insufficient B91 balance</span>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"
@@ -191,9 +191,9 @@
             </b-form-invalid-feedback>
           </b-form-group>
           <b-form-group>
-            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} TV</label>
+            <label class="fee-remark">Transaction Fee {{ formatter(fee) }} B91</label>
             <span v-if="isInsufficient()"
-                  class="vsys-check">Insufficient TV balance</span>
+                  class="vsys-check">Insufficient B91 balance</span>
           </b-form-group>
           <b-button variant="warning"
                     class="btn-continue"

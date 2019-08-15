@@ -56,7 +56,7 @@
                height="60px">
         </div>
         <div v-if="txIcon!=='register contract'&& txIcon!=='execute contract function'"
-             :class="txClass + '-amount'">{{ txIcon === 'sent' ? '-' : txIcon === 'received' ? '+' : '' }}{{ formatter(txAmount) }} TV</div>
+             :class="txClass + '-amount'">{{ txIcon === 'sent' ? '-' : txIcon === 'received' ? '+' : '' }}{{ formatter(txAmount) }} B91</div>
       </div>
       <div class="tx-address">
         <label>{{ (txIcon === 'received' || txIcon === 'leased in' || txIcon === 'leased in canceled') ? 'From' : 'To' }}</label>
@@ -68,7 +68,7 @@
       </div>
       <div class="tx-fee">
         <label>Fee</label>
-        <span>{{ formatter(txFee) || 0 }} TV</span>
+        <span>{{ formatter(txFee) || 0 }} B91</span>
       </div>
       <div class="tx-attachment"
            v-if="txIcon === 'sent' || txIcon === 'received'">

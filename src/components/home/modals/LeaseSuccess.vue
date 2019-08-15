@@ -3,7 +3,7 @@
     <img src="@/assets/imgs/icons/operate/ic_success_circle.svg">
     <div>
       <p class="p-tips">Your transaction is on the way!</p>
-      <p class="p-info">You have leased {{ formatter(amount) }} TV</p>
+      <p class="p-info">You have leased {{ formatter(amount) }} B91</p>
     </div>
     <b-button variant="warning"
               class="btn-detail"

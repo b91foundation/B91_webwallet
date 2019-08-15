@@ -83,7 +83,7 @@
                     label="Fee"
                     label-for="fee_success">
         <b-form-input id="fee_success"
-                      :value="Number(fee) + ' TV'"
+                      :value="Number(fee) + ' B91'"
                       class="fee"
                       readonly
                       :plaintext="true">

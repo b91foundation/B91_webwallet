@@ -30,7 +30,7 @@ export default {
     name: 'DownloadColdMobile',
     data() {
         return {
-            title: 'TV COLD',
+            title: 'B91 COLD',
             twoPlanarCode: require('../../assets/imgs/download/ico_welcome.png'),
             iphoneAppResource: 'https://testflight.apple.com/join/asJKfv78',
             androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/cold.wallet_release.apk'
