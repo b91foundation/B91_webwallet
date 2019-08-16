@@ -190,9 +190,9 @@ export default {
     border-right: 1px solid #EDEDED;
 }
 .btn-leasing {
-    background: #FF8737;
+    background: #ECBA6F;
     border-radius: 4px;
-    border: 1px solid #FF8737;
+    border: 1px solid #ECBA6F;
     font-size: 17px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -201,22 +201,22 @@ export default {
     margin-left: 8px;
 }
 .btn-leasing:active, .btn-leasing:hover {
-    background-color: #EB7D34 !important;
-    border: 1px solid #EB7D34 !important;
+    background-color: #ECBA00 !important;
+    border: 1px solid #ECBA00 !important;
 }
 .btn-list{
     background: #FFFFFF;
     border-radius: 4px;
     border: 1px solid #E8E9ED;
     font-size: 17px;
-    color: #FF8737;
+    color: #ECBA6F;
     letter-spacing: 0;
     width: 144px;
     height: 42px;
 }
 .btn-list:active, .btn-leasing:hover {
-    background-color: #EB7D34 !important;
-    border: 1px solid #EB7D34 !important;
+    background-color: #ECBA00 !important;
+    border: 1px solid #ECBA00 !important;
 }
 .btn-help {
     background: #FAFAFA;
