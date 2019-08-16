@@ -373,7 +373,7 @@ export default {
 .balance {
     float: right;
     font-size: 15px;
-    color: #FF8737;
+    color: #ECBA6F;
     letter-spacing: 0;
     text-align: right;
 }

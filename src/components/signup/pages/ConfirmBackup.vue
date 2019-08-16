@@ -174,7 +174,7 @@ export default {
 .footer-link {
     margin-top: 20px;
     cursor: pointer;
-    color: #FF8737;
+    color: #ECBA6F;
     display: -webkit-inline-box;
 }
 .footer-link:hover {
