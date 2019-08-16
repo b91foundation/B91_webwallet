@@ -111,7 +111,7 @@
       </div>
       <div class="submit-button">
         <b-button
-          class="h-input btn-color"
+          class="h-input"
           :variant="'warning'"
           :size="'lg'"
           :block=true
@@ -127,7 +127,7 @@
       <br>
       <div class="submit-button">
         <b-button
-          class="h-input btn-color"
+          class="h-input"
           :variant="'warning'"
           :size="'lg'"
           :block=true
@@ -598,12 +598,5 @@ export default {
 }
 .else-content {
     font-size: 18px;
-}
-.btn-color {
-    background-color: #ECBA6F !important;
-    border-color: #ECBA6F !important;
-    &:hover {
-        background-color: #ECBA00 !important;
-    }
 }
 </style>
