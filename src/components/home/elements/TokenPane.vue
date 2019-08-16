@@ -174,8 +174,8 @@ export default {
     margin-right: 10px;
 }
 .btn-creat {
-    border-color: #FF8837;
-    color: #FF8837;
+    border-color: #ECBA6F;
+    color: #ECBA6F;
     margin-right: 15px;
     font-size: 17px;
     font-weight:lighter;
