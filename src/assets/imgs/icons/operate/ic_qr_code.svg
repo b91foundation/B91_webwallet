@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_qr_code</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="00A_Export" transform="translate(-160.000000, -71.000000)">
-            <g id="ic_qr_code" transform="translate(160.000000, 71.000000)">
-                <path d="M4,36.004 L36,36.004 L36,4 L4,4 L4,36.004 Z M8,32 L8,8.004 L32,8.004 L32,32 L8,32 Z M44,36.004 L44,4 L76.004,4 L76.004,36.004 L44,36.004 Z M48,32 L71.996,32 L71.996,8.004 L48,8.004 L48,32 Z M4,76.004 L4,44.004 L36,44.004 L36,76.004 L4,76.004 Z M8,72.004 L32,72.004 L32,48.004 L8,48.004 L8,72.004 Z M60,44.0044 L76,44.0044 L76,64.0044 L72,64.0044 L72,48.0044 L64,48.0044 L64,56.0044 L44,56.0044 L44,44.0044 L48,44.0044 L48,52.0044 L60,52.0044 L60,44.0044 Z M44.0016,64.0052 L48.0016,64.0052 L48.0016,72.0052 L76.0016,72.0052 L76.0016,76.0052 L44.0016,76.0052 L44.0016,64.0052 Z M56,24.004 L56,16.004 L64,16.004 L64,24.004 L56,24.004 Z M16,64.004 L16,56.004 L24,56.004 L24,64.004 L16,64.004 Z M16,24.004 L24,24.004 L24,16.004 L16,16.004 L16,24.004 Z" id="Combined-Shape" fill="#EDEFF5"></path>
-                <rect id="Overlay" fill="#FFFFFF" opacity="0" x="0" y="0" width="80" height="80"></rect>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F2F2F2;}
+</style>
+<title>ic_qr_code</title>
+<desc>Created with Sketch.</desc>
+<path id="Combined-Shape" class="st0" d="M4,36h32V4H4V36z M8,32V8h24v24H8z M44,36V4h32v32H44z M48,32h24V8H48V32z M4,76V44h32v32
+	H4z M8,72h24V48H8V72z M60,44h16v20h-4V48h-8v8H44V44h4v8h12V44z M44,64h4v8h28v4H44V64z M56,24v-8h8v8H56z M16,64v-8h8v8H16z
+	 M16,24h8v-8h-8V24z"/>
 </svg>

@@ -114,6 +114,7 @@
             <img id="img_read"
                  @click="changeIcon"
                  style="font-size: 15px;z-index: 100;"
+                 height="16px"
                  src="@/assets/imgs/icons/signup/ic_check.svg"> Support split/reverse-split token<span style="font-size: 13px;color: #9091A3;letter-spacing: 0;"> (Attention: cannot change after create)</span>
           </div>
           <b-form-group style="margin-top: 10px;">

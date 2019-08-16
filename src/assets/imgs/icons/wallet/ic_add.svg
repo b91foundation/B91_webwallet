@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_add</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-383.000000, -114.000000)" fill="#FFFFFF" id="ic_add">
-            <g transform="translate(384.000000, 115.000000)">
-                <path d="M7.5,6.5 L13.5,6.5 C13.7761424,6.5 14,6.72385763 14,7 C14,7.27614237 13.7761424,7.5 13.5,7.5 L7.5,7.5 L7.5,13.5 C7.5,13.7761424 7.27614237,14 7,14 C6.72385763,14 6.5,13.7761424 6.5,13.5 L6.5,7.5 L0.5,7.5 C0.223857625,7.5 5.68772365e-14,7.27614237 5.68434189e-14,7 C5.68096012e-14,6.72385763 0.223857625,6.5 0.5,6.5 L6.5,6.5 L6.5,0.5 C6.5,0.223857625 6.72385763,5.07265313e-17 7,0 C7.27614237,-5.07265313e-17 7.5,0.223857625 7.5,0.5 L7.5,6.5 Z"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<title>ic_add</title>
+<desc>Created with Sketch.</desc>
+<g id="Export">
+	<g id="ic_add" transform="translate(-383.000000, -114.000000)">
+		<g transform="translate(384.000000, 115.000000)">
+			<path class="st0" d="M7.5,6.5h6C13.8,6.5,14,6.7,14,7s-0.2,0.5-0.5,0.5h-6v6C7.5,13.8,7.3,14,7,14s-0.5-0.2-0.5-0.5v-6h-6
+				C0.2,7.5,0,7.3,0,7s0.2-0.5,0.5-0.5h6v-6C6.5,0.2,6.7,0,7,0s0.5,0.2,0.5,0.5V6.5z"/>
+		</g>
+	</g>
+</g>
 </svg>

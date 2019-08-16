@@ -24,7 +24,8 @@
               type="button"
               :disabled="!avatarCanChange||registering"
               @click="changeAvatar()">
-              <img src="@/assets/imgs/icons/signup/ico_refresh.svg"> Change one {{ timeLeftToChangeStr }}
+              <img src="@/assets/imgs/icons/signup/ico_refresh.svg"
+              width="12px"> Change one {{ timeLeftToChangeStr }}
             </button>
           </div>
         </div>
@@ -103,6 +104,7 @@
           <img
             id="img_read"
             @click="changeicon"
+            width="18px"
             src="@/assets/imgs/icons/signup/ic_select_border.svg">
           I have read and agree to the <a class='vsys-color'
                                           href="#"

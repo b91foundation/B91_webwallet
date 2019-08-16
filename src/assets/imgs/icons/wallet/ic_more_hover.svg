@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_more_hover</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="00A_Export" transform="translate(-78.000000, -43.000000)">
-            <g id="ic_more_hover" transform="translate(78.000000, 43.000000)">
-                <rect id="Guide" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="16" height="16"></rect>
-                <path d="M8,4.5 C7.17157288,4.5 6.5,3.82842712 6.5,3 C6.5,2.17157288 7.17157288,1.5 8,1.5 C8.82842712,1.5 9.5,2.17157288 9.5,3 C9.5,3.82842712 8.82842712,4.5 8,4.5 Z M8,9.5 C7.17157288,9.5 6.5,8.82842712 6.5,8 C6.5,7.17157288 7.17157288,6.5 8,6.5 C8.82842712,6.5 9.5,7.17157288 9.5,8 C9.5,8.82842712 8.82842712,9.5 8,9.5 Z M8,14.5 C7.17157288,14.5 6.5,13.8284271 6.5,13 C6.5,12.1715729 7.17157288,11.5 8,11.5 C8.82842712,11.5 9.5,12.1715729 9.5,13 C9.5,13.8284271 8.82842712,14.5 8,14.5 Z" id="Combined-Shape" fill="#181B3A"></path>
-                <rect id="Overlay" x="0" y="0" width="16" height="16"></rect>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#222222;}
+	.st2{fill:none;}
+</style>
+<title>ic_more_hover</title>
+<desc>Created with Sketch.</desc>
+<rect id="Guide" y="0" class="st0" width="16" height="16"/>
+<path id="Combined-Shape" class="st1" d="M8,4.5C7.2,4.5,6.5,3.8,6.5,3S7.2,1.5,8,1.5S9.5,2.2,9.5,3S8.8,4.5,8,4.5z M8,9.5
+	C7.2,9.5,6.5,8.8,6.5,8S7.2,6.5,8,6.5S9.5,7.2,9.5,8S8.8,9.5,8,9.5z M8,14.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5
+	s1.5,0.7,1.5,1.5S8.8,14.5,8,14.5z"/>
+<rect id="Overlay" y="0" class="st2" width="16" height="16"/>
 </svg>

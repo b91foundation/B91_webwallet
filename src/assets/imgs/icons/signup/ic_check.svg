@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_check</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-106.000000, -217.000000)" id="ic_check" stroke="#D4D5D9">
-            <g transform="translate(106.000000, 217.000000)">
-                <rect id="Shape" x="0.5" y="0.5" width="17" height="17" rx="2"></rect>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#D4D5D9;}
+</style>
+<title>ic_check</title>
+<desc>Created with Sketch.</desc>
+<g id="Export">
+	<g id="ic_check" transform="translate(-106.000000, -217.000000)">
+		<g transform="translate(106.000000, 217.000000)">
+			<path id="Shape" class="st0" d="M2.5,0.5h13c1.1,0,2,0.9,2,2v13c0,1.1-0.9,2-2,2h-13c-1.1,0-2-0.9-2-2v-13
+				C0.5,1.4,1.4,0.5,2.5,0.5z"/>
+		</g>
+	</g>
+</g>
 </svg>

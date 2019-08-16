@@ -19,14 +19,17 @@
         <template slot="button-content">
           <div style="display: inline-block; margin-right: 10px">
             <img v-if="!changeShowDisable"
-                 src="@/assets/imgs/icons/wallet/ic_filter.svg">
+                 src="@/assets/imgs/icons/wallet/ic_filter.svg"
+                 width="16px">
             <img v-if="changeShowDisable"
                  width="16"
                  height="16"
                  src="@/assets/imgs/icons/wallet/ic_wait.svg">
             <span class="m-1">Latest {{ showingNum }} Records </span>
           </div>
-          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg">
+          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg"
+               height="5"
+               width="10">
         </template>
         <b-dropdown-item class="selection"
                          @click="changeShowNum(num)"
@@ -65,14 +68,17 @@
         <template slot="button-content">
           <div style="display: inline-block; margin-right: 10px">
             <img v-if="!changeShowDisable"
-                 src="@/assets/imgs/icons/wallet/ic_filter.svg">
+                 src="@/assets/imgs/icons/wallet/ic_filter.svg"
+                 width="16px">
             <img v-if="changeShowDisable"
                  width="16"
                  height="16"
                  src="@/assets/imgs/icons/wallet/ic_wait.svg">
             <span class="m-1">Latest {{ showingNum }} Records </span>
           </div>
-          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg">
+          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg"
+               height="5"
+               width="10">
         </template>
         <b-dropdown-item class="selection"
                          @click="changeShowNum(num)"

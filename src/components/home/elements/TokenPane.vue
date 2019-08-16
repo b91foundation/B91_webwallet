@@ -23,26 +23,28 @@
         Total Balance
       </p>
     </div>
-    <div class="col align-self-center text-right">
-      <b-button variant="white"
-                class="btn-creat"
-                v-b-modal.newTokenModal>
-        <img v-if="!isMobile"
-             class="icon-btn"
-             src="@/assets/imgs/icons/wallet/ic_new_token_yellow.svg"><b>Create Token</b></b-button>
-      <b-button variant="dark"
-                class="btn-send"
-                v-b-modal.sendModal>
-        <img v-if="!isMobile"
-             class="icon-btn"
-             src="@/assets/imgs/icons/wallet/ic_send.svg"><b>Send</b></b-button>
-      <b-button variant="dark"
-                class="btn-receive"
-                v-b-modal.receiveModal>
-        <img v-if="!isMobile"
-             class="icon-btn"
-             src="@/assets/imgs/icons/wallet/ic_receive.svg"><b> {{ !isMobile ? 'Receive':'Recv' }} </b></b-button>
-    </div>
+      <div class="col align-self-center text-right">
+          <b-button variant="white"
+                    class="btn-creat"
+                    v-b-modal.newTokenModal>
+              <img v-if="!isMobile"
+                   class="icon-btn"
+                   src="@/assets/imgs/icons/wallet/ic_new_token_yellow.svg"
+                   width="16px"><b>Create Token</b></b-button>
+          <b-button variant="dark"
+                    class="btn-send"
+                    v-b-modal.sendModal>
+              <img v-if="!isMobile"
+                   class="icon-btn"
+                   src="@/assets/imgs/icons/wallet/ic_send.svg"><b>Send</b></b-button>
+          <b-button variant="dark"
+                    class="btn-receive"
+                    v-b-modal.receiveModal>
+              <img v-if="!isMobile"
+                   class="icon-btn"
+                   src="@/assets/imgs/icons/wallet/ic_receive.svg"><b> {{ !isMobile ? 'Receive':'Recv' }} </b>
+          </b-button>
+      </div>
     <Send show="false"
           :balances="balances"
           :cold-addresses="coldAddresses"

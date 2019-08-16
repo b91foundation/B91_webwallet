@@ -13,12 +13,14 @@
              :set-usr-local-storage="setUsrLocalStorage"
              @delete-cold="deleteCold"></nav-bar>
     <div class="container-fluid height-full contents">
-      <div class="row height-full div-main">
-        <div class="col-auto col-xs-1 assets-pane height-full">
-          <div class="asset-title">
-            <img
-              src="../assets/imgs/icons/wallet/ic_assets_line.svg"><b class="title-assets">Accounts</b>
-          </div>
+        <div class="row height-full div-main">
+            <div class="col-auto col-xs-1 assets-pane height-full">
+                <div class="asset-title">
+                    <img
+                        src="../assets/imgs/icons/wallet/ic_assets_line.svg"
+                        width="24px"
+                    ><b class="title-assets">Accounts</b>
+                </div>
           <Asset v-if="addresses"
                  v-for="(index, address) in addresses"
                  :key="address"
@@ -31,7 +33,9 @@
           <div>
             <span>
               <img
-                src="../assets/imgs/icons/wallet/ic_wallet_line.svg"><b class="title-assets">Cold Wallet</b>
+                  src="../assets/imgs/icons/wallet/ic_wallet_line.svg"
+                  width="24px"
+              ><b class="title-assets">Cold Wallet</b>
               <b-btn @click="sortStatus"
                      size="sm"
                      align="left"
@@ -64,9 +68,11 @@
                  size="sm"
                  variant="link"
                  class="btn-import-cold">
-            <img
-              class="mb-1"
-              src="../assets/imgs/icons/wallet/ic_import.svg"><b class="title-assets">Monitor Cold Wallet</b></b-btn>
+              <img
+                  class="mb-1"
+                  src="../assets/imgs/icons/wallet/ic_import.svg"
+                  width="16px"
+              ><b class="title-assets">Monitor Cold Wallet</b></b-btn>
           <ImportColdWallet @import-cold="importCold"
                             show="false"
                             :address="address"></ImportColdWallet>
@@ -79,15 +85,17 @@
             <b-tabs @input="tranTabChange">
               <b-tab active>
                 <template slot="title">
-                  <div>
-                    <img
-                      class="img-active"
-                      src="../assets/imgs/icons/wallet/ic_polygon_solid.svg">
-                    <img
-                      class="img-nonactive"
-                      src="../assets/imgs/icons/wallet/ic_polygon_line.svg">
-                    <span class="tab-title">Asset</span>
-                  </div>
+                    <div>
+                        <img
+                            class="img-active"
+                            src="../assets/imgs/icons/wallet/ic_polygon_solid.svg"
+                            width="24px">
+                        <img
+                            class="img-nonactive"
+                            src="../assets/imgs/icons/wallet/ic_polygon_line.svg"
+                            width="24px">
+                        <span class="tab-title">Asset</span>
+                    </div>
                 </template>
                 <div class="token-pane">
                   <TokenPane :balance="balance[selectedAddress]"
@@ -110,14 +118,16 @@
               </b-tab>
               <b-tab>
                 <template slot="title">
-                  <div>
-                    <img
-                      class="img-active"
-                      src="../assets/imgs/icons/wallet/ic_transaction_solid.svg">
-                    <img
-                      class="img-nonactive"
-                      src="../assets/imgs/icons/wallet/ic_transaction_line.svg">
-                    <span class="tab-title">Transaction</span>
+                    <div>
+                        <img
+                            class="img-active"
+                            src="../assets/imgs/icons/wallet/ic_transaction_solid.svg"
+                            width="24px">
+                        <img
+                            class="img-nonactive"
+                            src="../assets/imgs/icons/wallet/ic_transaction_line.svg"
+                            width="24px">
+                        <span class="tab-title">Transaction</span>
                   </div>
                 </template>
                 <div class="f-records">
@@ -127,14 +137,16 @@
               </b-tab>
               <b-tab>
                 <template slot="title">
-                  <div>
-                    <img
-                      class="img-active"
-                      src="../assets/imgs/icons/wallet/ic_minting_Solid.svg">
-                    <img
-                      class="img-nonactive"
-                      src="../assets/imgs/icons/wallet/ic_minting_Line.svg">
-                    <span class="tab-title">Minting</span>
+                    <div>
+                        <img
+                            class="img-active"
+                            src="../assets/imgs/icons/wallet/ic_minting_Solid.svg"
+                            width="24px">
+                        <img
+                            class="img-nonactive"
+                            src="../assets/imgs/icons/wallet/ic_minting_Line.svg"
+                            width="24px">
+                        <span class="tab-title">Minting</span>
                   </div>
                 </template>
                 <div class="lease-pane">

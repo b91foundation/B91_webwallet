@@ -23,7 +23,8 @@
           <div style="display:inline-block; margin-right: 10px;">
             <img
               v-if="!changeShowDisable"
-              src="@/assets/imgs/icons/wallet/ic_filter.svg">
+              src="@/assets/imgs/icons/wallet/ic_filter.svg"
+              width="16px">
             <img
               height="16"
               width="16"
@@ -31,7 +32,9 @@
               src="@/assets/imgs/icons/wallet/ic_wait.svg">
             <span class="m-1">Latest {{ showingNum }} Records </span>
           </div>
-          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg">
+            <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg"
+                 height="5"
+                 width="10">
         </template>
         <b-dropdown-item
           class="selection"
@@ -45,10 +48,12 @@
         :fields="resFields"
         :type="downloadFileType"
         :name="'txs_' + exportTime + '_' + address + '.' + downloadFileType">
-        <b-btn
-          class="btn-export"
-          :disabled="changeShowDisable"
-          variant="light"><img src="@/assets/imgs/icons/wallet/ic_export.svg"> Export</b-btn>
+          <b-btn
+              class="btn-export"
+              :disabled="changeShowDisable"
+              variant="light"><img src="@/assets/imgs/icons/wallet/ic_export.svg"
+                                   width="16px"> Export
+          </b-btn>
       </json-excel>
     </div>
     <div class="inherit-height">
@@ -86,14 +91,17 @@
         <template slot="button-content">
           <div style="display:inline-block; margin-right: 10px;">
             <img v-if="!changeShowDisable"
-                 src="@/assets/imgs/icons/wallet/ic_filter.svg">
+                 src="@/assets/imgs/icons/wallet/ic_filter.svg"
+                 width="16px">
             <img height="16"
                  width="16"
                  v-if="changeShowDisable"
                  src="@/assets/imgs/icons/wallet/ic_wait.svg">
             <span class="m-1">Latest {{ showingNum }} Records </span>
           </div>
-          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg">
+          <img src="@/assets/imgs/icons/signup/ic_arrow_down.svg"
+               height="5"
+               width="10">
         </template>
         <b-dropdown-item class="selection"
                          v-for="num in showNums"
@@ -105,9 +113,11 @@
                   :fields="resFields"
                   :type="downloadFileType"
                   :name="'txs_' + address + '.' + downloadFileType">
-        <b-btn class="btn-export"
-               :disabled="changeShowDisable"
-               variant="light"><img src="@/assets/imgs/icons/wallet/ic_export.svg"> Export</b-btn>
+          <b-btn class="btn-export"
+                 :disabled="changeShowDisable"
+                 variant="light"><img src="@/assets/imgs/icons/wallet/ic_export.svg"
+                                      width="16px"> Export
+          </b-btn>
       </json-excel>
     </div>
     <img

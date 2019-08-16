@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_filter</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="00A_Export" transform="translate(-49.000000, -68.000000)">
-            <g id="ic_filter" transform="translate(49.000000, 68.000000)">
-                <rect id="Guide" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="16" height="16"></rect>
-                <path d="M2.5678688,2 L6.8838688,7.18 C6.9598688,7.27 7.0008688,7.383 7.0008688,7.5 L7.0008688,13.806 L9.0008688,13.14 L9.0008688,7.5 C9.0008688,7.383 9.0418688,7.27 9.1168688,7.18 L13.4328688,2 L2.5678688,2 Z M6.5008688,15 C6.3968688,15 6.2948688,14.968 6.2088688,14.906 C6.0778688,14.812 6.0008688,14.661 6.0008688,14.5 L6.0008688,7.681 L1.1168688,1.82 C0.9918688,1.671 0.9648688,1.463 1.0468688,1.288 C1.1308688,1.112 1.3058688,1 1.5008688,1 L14.5008688,1 C14.6948688,1 14.8708688,1.112 14.9538688,1.288 C15.0358688,1.463 15.0088688,1.671 14.8838688,1.82 L10.0008688,7.681 L10.0008688,13.5 C10.0008688,13.715 9.8628688,13.906 9.6588688,13.974 L6.6588688,14.974 C6.6068688,14.992 6.5528688,15 6.5008688,15 Z" id="Fill-1" fill="#9091A3"></path>
-                <rect id="Overlay" x="0" y="0" width="16" height="16"></rect>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#AEAEAE;}
+	.st1{fill:none;}
+</style>
+<title>ic_filter</title>
+<desc>Created with Sketch.</desc>
+<path id="Fill-1" class="st0" d="M2.6,2l4.3,5.2C7,7.3,7,7.4,7,7.5v6.3l2-0.7V7.5c0-0.1,0-0.2,0.1-0.3L13.4,2H2.6z M6.5,15
+	c-0.1,0-0.2,0-0.3-0.1C6.1,14.8,6,14.7,6,14.5V7.7L1.1,1.8C1,1.7,1,1.5,1,1.3C1.1,1.1,1.3,1,1.5,1h13c0.2,0,0.4,0.1,0.5,0.3
+	C15,1.5,15,1.7,14.9,1.8L10,7.7v5.8c0,0.2-0.1,0.4-0.3,0.5l-3,1C6.6,15,6.6,15,6.5,15z"/>
+<rect id="Overlay" y="0" class="st1" width="16" height="16"/>
 </svg>
