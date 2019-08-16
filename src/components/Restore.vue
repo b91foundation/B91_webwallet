@@ -185,8 +185,8 @@ export default {
 .dropup {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    background: #FFB637;
-    border-color: #FFB637;
+    background: #ECBA6F;
+    border-color: #ECBA6F;
 }
 .dropdown:after {
     display: inline-block;

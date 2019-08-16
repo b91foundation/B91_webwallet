@@ -396,7 +396,7 @@ export default {
     display: inline-flex;
 }
 .btn-change-avt {
-    color: #FF8737;
+    color: #ECBA6F;
     background-color: #fff;
     font-size: 0.875rem;
     line-height: 2;
@@ -405,7 +405,7 @@ export default {
     margin-top: auto;
     margin-bottom: auto;
     cursor: pointer;
-    border: 1px solid #FF8737;
+    border: 1px solid #ECBA6F;
 }
 .btn-change-avt:disabled {
     opacity: 0.65;
