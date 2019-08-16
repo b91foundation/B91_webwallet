@@ -243,7 +243,7 @@ export default {
     outline: none;
     font-family: Roboto-Bold;
     font-size: 13px;
-    color: #FF8837;
+    color: #ECBA6F;
     letter-spacing: 0;
     text-align: right;
     line-height: 15px;

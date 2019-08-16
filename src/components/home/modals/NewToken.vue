@@ -849,7 +849,7 @@ textarea::-webkit-input-placeholder {
 .balance {
     float: right;
     font-size: 15px;
-    color: #FF8737;
+    color: #ECBA6F;
     letter-spacing: 0;
     text-align: right;
 }
@@ -927,8 +927,8 @@ textarea::-webkit-input-placeholder {
     height: 24px;
     margin-left: 2px;
     color: #fff !important;
-    background-color: #FF8737 !important;
-    border-color: #FF8737 !important;
+    background-color: #ECBA6F !important;
+    border-color: #ECBA6F !important;
     border-radius: 50%;
 }
 .bar-plus {
@@ -936,8 +936,8 @@ textarea::-webkit-input-placeholder {
     margin-left: 307px;
     margin-right: 2px;
     color: #fff !important;
-    background-color: #FF8737 !important;
-    border-color: #FF8737 !important;
+    background-color: #ECBA6F !important;
+    border-color: #ECBA6F !important;
     width: 24px;
     height: 24px;
     border-radius: 50%;

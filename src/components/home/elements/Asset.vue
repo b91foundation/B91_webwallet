@@ -114,7 +114,7 @@ export default {
     color: #9091A3;
 }
 .selected-asset .asset-title {
-    color: #FFCEAD;
+    color: #FFFFFF;
 }
 .card-asset {
     padding: 16px 20px;

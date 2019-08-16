@@ -402,8 +402,8 @@ export default {
         padding-right: 40px;
     }
     .btn-sendToken {
-        border-color: #FF8837;
-        color: #FF8837;
+        border-color: #ECBA6F;
+        color: #ECBA6F;
         font-size: 17px;
         font-weight:lighter;
         background:#fafafa;
