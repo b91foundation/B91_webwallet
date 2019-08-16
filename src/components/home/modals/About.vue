@@ -13,7 +13,8 @@
     </button>
     <div class="about-container">
       <div class="image-illustration">
-        <img src="@/assets/imgs/icons/wallet/ic_illustration_wallet.svg">
+        <img src="@/assets/imgs/icons/wallet/ic_illustration_wallet.svg"
+        height="152px">
       </div>
       <div class="about-vsyswallet">About TV Wallet
       </div>
