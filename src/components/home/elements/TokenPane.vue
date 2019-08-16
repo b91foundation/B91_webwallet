@@ -148,8 +148,8 @@ export default {
     line-height: 120%;
 }
 .btn-send:active, .btn-send:hover{
-    background-color: #E03146 !important;
-    border: 1px solid #E03146 !important;
+    background-color: #C69955 !important;
+    border: 1px solid #C69955 !important;
 };
 .btn-receive {
     margin-left: 15px;
@@ -160,8 +160,8 @@ export default {
     height: 42px;
 }
 .btn-receive:active, .btn-receive:hover {
-    background-color: #1F8F7C !important;
-    border: 1px solid #1F8F7C !important;
+    background-color: #000000 !important;
+    border: 1px solid #000000 !important;
 }
 .tran-head {
     padding-left: 38px;
