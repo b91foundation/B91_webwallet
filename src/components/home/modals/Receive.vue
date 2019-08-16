@@ -79,7 +79,7 @@
         <img :src="getQrCodeImg">
       </div>
       <b-button variant="warning"
-                class="btn-o"
+                class="btn-o btn-color"
                 block
                 size="lg"
                 @click="closeModal">OK
@@ -229,6 +229,13 @@ input[type=number]::-webkit-outer-spin-button {
     letter-spacing: 0;
     text-align: center;
     height: 44px;
+}
+.btn-color {
+    background-color: #ECBA6F !important;
+    border-color: #ECBA6F !important;
+    &:hover {
+        background-color: #ECBA00 !important;
+    }
 }
 .btn-copy {
     position: absolute;

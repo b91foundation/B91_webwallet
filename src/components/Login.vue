@@ -599,4 +599,11 @@ export default {
 .else-content {
     font-size: 18px;
 }
+.btn-color {
+    background-color: #ECBA6F !important;
+    border-color: #ECBA6F !important;
+    &:hover {
+        background-color: #ECBA00 !important;
+    }
+}
 </style>

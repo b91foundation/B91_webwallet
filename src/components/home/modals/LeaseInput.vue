@@ -121,7 +121,7 @@
       <label class="fee-remark">Transaction Fee {{ formatter(fee) }} B91</label>
     </b-form-group>
     <b-button variant="warning"
-              class="btn-continue"
+              class="btn-continue btn-color"
               size="lg"
               block
               :disabled="isSubmitDisabled"
@@ -352,7 +352,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
 .addr-input {
     border: 1px solid #E8E9ED;
     border-bottom-left-radius: 0;
@@ -369,6 +369,13 @@ export default {
     font-size: 15px;
     color: #9091A3;
     letter-spacing: 0;
+}
+.btn-color {
+    background-color: #ECBA6F !important;
+    border-color: #ECBA6F !important;
+    &:hover {
+     background-color: #ECBA00 !important;
+    }
 }
 .balance {
     float: right;

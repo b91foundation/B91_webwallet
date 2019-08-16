@@ -50,7 +50,7 @@
       <b-col class="col-rit">
         <b-button
           block
-          class="btn-confirm"
+          class="btn-confirm btn-color"
           variant="warning"
           size="lg"
           @click="confirm(); passParamToParent();">Confirm
@@ -165,7 +165,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped  lang="less">
 .setting-input {
     height: 48px !important;
     font-size: 15px;
@@ -177,6 +177,14 @@ export default {
     right: 0;
     margin-right: 20px;
     margin-top: 4px;
+}
+
+.btn-color {
+    background-color: #ECBA6F !important;
+    border-color: #ECBA6F !important;
+    &:hover {
+        background-color: #ECBA00 !important;
+    }
 }
 .div-set {
     padding-top: 24px;
