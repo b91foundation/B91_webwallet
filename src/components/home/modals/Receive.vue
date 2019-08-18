@@ -35,7 +35,8 @@
           v-b-popover.click.topright="'Copied!'"
           @click="copyAddr"
           variant="link">
-          <img src="@/assets/imgs/icons/operate/ic_copy.svg">
+          <img src="@/assets/imgs/icons/operate/ic_copy.svg"
+          width="20px">
         </b-btn>
       </b-form-group>
       <b-form-group label="Amount"

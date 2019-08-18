@@ -35,7 +35,8 @@
           v-b-popover.click.topright="'Copied!'"
           @click="copyText('addr-cpy', 'addrToCopy')"
           variant="link">
-          <img src="@/assets/imgs/icons/operate/ic_copy.svg">
+          <img src="@/assets/imgs/icons/operate/ic_copy.svg"
+          width="20px">
         </b-btn>
       </b-form-group>
       <b-form-group label="Public Key"
@@ -59,7 +60,8 @@
           v-b-popover.click.topright="'Copied!'"
           @click="copyText('pub-cpy', 'pubToCopy')"
           variant="link">
-          <img src="@/assets/imgs/icons/operate/ic_copy.svg">
+          <img src="@/assets/imgs/icons/operate/ic_copy.svg"
+          width="20px">
         </b-btn>
       </b-form-group>
       <b-form-group label="Private Key"
@@ -107,7 +109,8 @@
               @click="copyText('prv-copy', 'prvToCopy')"
               size="sm"
               v-b-popover.click.topright="'Copied!'">
-              <img src="@/assets/imgs/icons/operate/ic_copy.svg">
+              <img src="@/assets/imgs/icons/operate/ic_copy.svg"
+              width="20px">
             </b-btn>
           </b-input-group-append>
           <b-input-group-append>
@@ -170,7 +173,8 @@
               size="sm"
               @click="copyText('seed-cpy', 'seedToCopy')"
               v-b-popover.click.topright="'Copied!'">
-              <img src="@/assets/imgs/icons/operate/ic_copy.svg">
+              <img src="@/assets/imgs/icons/operate/ic_copy.svg"
+              width="20px">
             </b-btn>
           </b-input-group-append>
           <b-input-group-append>
@@ -222,7 +226,8 @@
                    v-b-popover.click.topright="'Copied!'"
                    @click="copyColdText(addr, tagOfColdWallet[addr])"
                    size="sm">
-              <img src="@/assets/imgs/icons/operate/ic_copy.svg">
+              <img src="@/assets/imgs/icons/operate/ic_copy.svg"
+              width="20px">
             </b-btn>
           </b-input-group-append>
           <b-input-group-append>
