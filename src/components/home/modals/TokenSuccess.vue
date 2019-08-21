@@ -2,9 +2,11 @@
   <div>
     <div class="token-succ-icon">
       <img v-if="txType==='Destroy Token'"
-           src="@/assets/imgs/icons/operate/ic_burn.svg">
+           src="@/assets/imgs/icons/operate/ic_burn.svg"
+           width="64px">
       <img v-else
-           src="@/assets/imgs/icons/operate/ic_success_circle.svg">
+           src="@/assets/imgs/icons/operate/ic_success_circle.svg"
+           width="64px">
     </div>
     <div class="infos">
       <b-form-group v-if="txType==='Destroy Token'"

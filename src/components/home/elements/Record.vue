@@ -100,10 +100,12 @@
               @mouseout="unhoverIco">
               <img
                 v-if="hovered"
-                src="@/assets/imgs/icons/wallet/ic_more_hover.svg">
+                src="@/assets/imgs/icons/wallet/ic_more_hover.svg"
+                width="16px">
               <img
                 v-if="!hovered"
-                src="@/assets/imgs/icons/wallet/ic_more.svg">
+                src="@/assets/imgs/icons/wallet/ic_more.svg"
+                width="16px">
             </div>
           </template>
           <b-dropdown-item @click="showModal">TX info</b-dropdown-item>
