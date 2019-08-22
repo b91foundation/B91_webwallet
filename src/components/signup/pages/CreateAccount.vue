@@ -81,7 +81,8 @@
           <img
             v-if="password && !isPassErrors"
             class="check-right"
-            src="@/assets/imgs/icons/signup/ic_check_green.svg">
+            src="@/assets/imgs/icons/signup/ic_check_green.svg"
+            width="12px">
           <small
             id="emailHelp"
             class="form-text text-muted text-right">
