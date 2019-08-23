@@ -1,6 +1,7 @@
 <template>
   <div>
-    <img src="@/assets/imgs/icons/operate/ic_success_circle.svg">
+    <img src="@/assets/imgs/icons/operate/ic_success_circle.svg"
+         width="64px">
     <div>
       <p class="p-tips">Your transaction is on the way!</p>
       <p class="p-info">You have leased {{ formatter(amount) }} B91</p>

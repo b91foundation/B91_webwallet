@@ -2,10 +2,10 @@
   <div>
     <img v-if="txType==='payment'"
          src="@/assets/imgs/icons/operate/ic_sent_big.svg"
-         width="32px">
+         width="64px">
     <img v-else-if="txType==='lease'"
          src="@/assets/imgs/icons/operate/ic_leasing_big.svg"
-         width="32px">
+         width="64px">
     <div class="infos">
       <b-form-group horizontal
                     class="form-line"
