@@ -1,9 +1,11 @@
 <template>
   <div>
     <img v-if="txType==='payment'"
-         src="@/assets/imgs/icons/operate/ic_sent_big.svg">
+         src="@/assets/imgs/icons/operate/ic_sent_big.svg"
+         width="32px">
     <img v-else-if="txType==='lease'"
-         src="@/assets/imgs/icons/operate/ic_leasing_big.svg">
+         src="@/assets/imgs/icons/operate/ic_leasing_big.svg"
+         width="32px">
     <div class="infos">
       <b-form-group horizontal
                     class="form-line"
