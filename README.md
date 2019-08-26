@@ -1,4 +1,4 @@
-# B91 Wallet Gui
+# B91 Web Wallet
 
 B91 wallet gui based on the basic wallet and cold wallet.
 
