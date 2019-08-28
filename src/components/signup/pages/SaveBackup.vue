@@ -7,6 +7,7 @@
     <textarea
       v-model="seedPhrase"
       ref="wordsToCopy"
+      id="words-cpy"
       class="hidden"
       readonly>
     </textarea>
@@ -17,6 +18,7 @@
           id="btn-cpy"
           :disabled="isCpyDisable"
           v-b-popover.click="'copied'"
+          data-clipboard-target="#words-cpy"
           @click="copyWords"
           variant="link">
           copy them
@@ -52,6 +54,7 @@
 import VTitle from '@/components/signup/elements/VTitle'
 import Vue from 'vue'
 import seedLib from '@/libs/seed.js'
+import Clipboard from 'clipboard'
 
 export default {
     name: 'SaveBackup',
@@ -101,8 +104,16 @@ export default {
 
     methods: {
         copyWords() {
-            this.$refs.wordsToCopy.select()
-            window.document.execCommand('copy')
+            var clipboard = new Clipboard('#btn-cpy')
+            clipboard.on('success', function(e) {
+                console.log(e)
+            })
+
+            clipboard.on('error', function(e) {
+                console.log(e)
+            })
+            // this.$refs.wordsToCopy.select()
+            // window.document.execCommand('copy')
             this.$root.$emit('bv::show::popover', 'btn-cpy')
             this.isCpyDisable = true
             setTimeout(() => {
