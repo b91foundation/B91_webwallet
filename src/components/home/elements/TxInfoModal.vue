@@ -236,6 +236,7 @@ export default {
         },
         copyTxId() {
             this.$refs.tId.select()
+            window.document.execCommand('SelectAll')
             window.document.execCommand('copy')
         }
     }

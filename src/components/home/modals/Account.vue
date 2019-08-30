@@ -397,6 +397,7 @@ export default {
         },
         copyText(buttonId, refName) {
             this.$refs[refName].select()
+            window.document.execCommand('SelectAll')
             window.document.execCommand('copy')
             this.$root.$emit('bv::show::popover', buttonId)
             setTimeout(() => {
@@ -406,6 +407,7 @@ export default {
         copyColdText(addr) {
             var index = this.refForCold[addr]
             this.$refs.coldToCopy[index].select()
+            window.document.execCommand('SelectAll')
             window.document.execCommand('copy')
             this.$root.$emit('bv::show::popover', addr)
             setTimeout(() => {

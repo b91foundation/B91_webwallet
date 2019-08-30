@@ -180,6 +180,7 @@ export default {
         },
         copyAddr() {
             this.$refs.addrToCopy.select()
+            window.document.execCommand('SelectAll')
             window.document.execCommand('copy')
             this.$root.$emit('bv::show::popover', 'btn-cpy')
             this.isCpyDisable = true
