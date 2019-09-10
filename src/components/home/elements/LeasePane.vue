@@ -79,7 +79,7 @@
           <span>You can cancel a leasing transaction as soon as it appears in the blockchain which usually occurs in a minute or less.</span>
         </div>
         <div class="description-split"></div>
-        <div><a href="http://t.top/supernodes"
+        <div><a href="https://exp.b91.com/zh-CN/supernode"
                 target="_blank" >List of nodes</a><span> You can lease your coins to supernode to get lease rewards</span></div>
       </div>
     </b-popover>
@@ -160,7 +160,7 @@ export default {
     },
     methods: {
         redirectToVsysrate() {
-            window.open('http://t.top/supernodes')
+            window.open('https://exp.b91.com/zh-CN/supernode')
         },
         formatter(num) {
             return browser.bigNumberFormatter(num)

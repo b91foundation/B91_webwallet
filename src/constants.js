@@ -47,8 +47,8 @@ export const DEFAULT_BASIC_CONFIG = {
 
 export const NODE_IP = '/api'
 export const ADDRESS_LENGTH = 35;
-export const TX_TEST_EXPLORER = 'https://testexplorer.t.top/'
-export const TX_EXPLORER = 'https://explorer.t.top/'
+export const TX_TEST_EXPLORER = 'https://testexp.b91.com/zh-CN/supernode'
+export const TX_EXPLORER = 'https://exp.b91.com/zh-CN/supernode'
 export const VSYS_PRECISION = 1e8
 export const TOKEN_FEE = 100
 export const TX_FEE = 0.1
