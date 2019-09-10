@@ -31,9 +31,9 @@
            align="justify">
         <p>B91 Wallet is an innovative cryptocurrency wallet service providing for the B91 SYSTEMS blockchain, which consists of:</p>
         <p>2.1. B91 Wallet Web Application</p>
-        <p>B91 SYSTEMS has created means for users to access and transfer ownership of V coins under the name of B91 Wallet. By entering into this agreement You will receive a license to use any of the B91 Wallet Web Application. It is strongly recommended You only use the B91 Wallet Web Application after gaining basic knowledge of cryptocurrencies.</p>
+        <p>B91 SYSTEMS has created means for users to access and transfer ownership of B91 coins under the name of B91 Wallet. By entering into this agreement You will receive a license to use any of the B91 Wallet Web Application. It is strongly recommended You only use the B91 Wallet Web Application after gaining basic knowledge of cryptocurrencies.</p>
         <p>2.1.1. You Own Your Private Keys</p>
-        <p>B91 SYSTEMS does not store user’s private keys, phrases or passwords ("Private Information") on any servers. It is very important that You backup Private Information. If You lose Your Private Information then it will not be possible for B91 SYSTEMS to recover it for You and You may lose access to Your V coins. If You do not understand the above paragraph then we strongly recommend that You learn more about cryptocurrencies before using the B91 Wallet Web Application.</p>
+        <p>B91 SYSTEMS does not store user’s private keys, phrases or passwords ("Private Information") on any servers. It is very important that You backup Private Information. If You lose Your Private Information then it will not be possible for B91 SYSTEMS to recover it for You and You may lose access to Your B91 coins. If You do not understand the above paragraph then we strongly recommend that You learn more about cryptocurrencies before using the B91 Wallet Web Application.</p>
         <p>2.1.2. Transactions</p>
         <p>The only authentic record of cryptocurrency transactions is the applicable cryptocurrency blockchain. The B91 Wallet Web Application provides functionality that allows You to receive, send, lease and cancel lease cryptocurrency transaction instructions. B91 SYSTEMS does not guarantee that all transactions You perform using the B91 Wallet Web Application shall be stored in any cryptocurrency blockchain. You must ensure that Your transactions conform to the applicable rules of the cryptocurrency software. There may be transaction fees associated with Your cryptocurrency transactions that are required by the cryptocurrency system You engaged with. B91 SYSTEMS should not be responsible for any losses You incur due to transaction fees or losses that occur due to incorrectly set transaction fees (i.e. too low or high). B91 SYSTEMS does not have access to your transactions (or anyone else's).</p>
         <br>
@@ -46,12 +46,12 @@
            align="justify">
         <p>You shall:<br>
           be of the age of majority in Your local jurisdiction; and,<br>
-          be responsible for Your own V coins; and,<br>
+          be responsible for Your own B91 coins; and,<br>
           backup/write down Your seed phrase for wallet recovery and keep it safe and private; and,<br>
           carefully guard Your seed phrase in case of usage B91 Wallet Web Application; and,<br>
           ensure that Your device(s) are fully updated and do not contain viruses, malware or otherwise malicious software.<br>
           You shall not:<br>
-          deposit V coins into addresses for coins that are not supported by the B91 Wallet Web Application; or,<br>
+          deposit B91 coins into addresses for coins that are not supported by the B91 Wallet Web Application; or,<br>
           use B91 Wallet in a manner likely to interfere with other B91 SYSTEMS blockchain users or nodes (e.g. excessive API calls or network spam); or,<br>
           use B91 Wallet in a manner contrary to Your local laws.
         </p>
@@ -78,7 +78,7 @@
           cloud backup software (e.g. certain distributions) may upload your private information to third party services; and,<br>
           malware, viruses or other malicious software on Your device that is able to take control of or interfere with B91 Wallet; and,<br>
           communication delays between Your B91 Wallet and a node or relay service for a cryptocurrency (and vice versa); and,<br>
-          failure to achieve a certain market value/price for the cryptocurrency, whether through a third-party service or any other kind of transaction; and, theft of V coins.
+          failure to achieve a certain market value/price for the cryptocurrency, whether through a third-party service or any other kind of transaction; and, theft of B91 coins.
         </p>
         <br>
       </div>
