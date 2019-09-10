@@ -58,7 +58,8 @@
       <b-button variant="dark"
                 id="leaseHelp"
                 class="btn-help">
-        <img src="@/assets/imgs/icons/wallet/ic_help.svg">
+        <img src="@/assets/imgs/icons/wallet/ic_help.svg"
+            width="20px">
       </b-button>
     </div>
     <b-popover target="leaseHelp"
@@ -67,7 +68,7 @@
                triggers="click blur">
       <div class="quick-note">
         <div>
-          <span>You can only transfer or trade VSYSs that aren’t leased. The leased amount cannot be transferred or traded by you or anyone else.</span>
+          <span>You can only transfer or trade B91 that aren’t leased. The leased amount cannot be transferred or traded by you or anyone else.</span>
         </div>
         <div class="description-split"></div>
         <div>
