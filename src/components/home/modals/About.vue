@@ -21,7 +21,7 @@
       <div class="version">Version {{ vnumber }}
       </div>
       <div class="about_text">
-        TV Wallet is a reference implementation of cross-platform browser wallet for the TV Systems blockchain network. It features basic hot wallet mode and cold wallet interaction/monitoring mode.
+        B91 Wallet is a reference implementation of cross-platform browser wallet for the B91 Systems blockchain network. It features basic hot wallet mode and cold wallet interaction/monitoring mode.
       </div>
       <div class="right-reserved">@2019 B91 SYSTEMS LIMITED All rights reserved
       </div>
