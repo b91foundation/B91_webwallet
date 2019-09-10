@@ -16,7 +16,7 @@
         <img src="@/assets/imgs/icons/wallet/ic_illustration_wallet.svg"
         height="152px">
       </div>
-      <div class="about-vsyswallet">About TV Wallet
+      <div class="about-vsyswallet">About B91 Wallet
       </div>
       <div class="version">Version {{ vnumber }}
       </div>
